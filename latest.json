@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "applicationId":  "cn.local.hongguocar",
-    "versionName":  "0.30.0",
-    "versionCode":  30,
+    "versionName":  "0.31.0",
+    "versionCode":  31,
     "minSdk":  26,
-    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.30.0",
+    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.31.0",
     "apk":  {
-                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.30.0/hongguo-android-0.30.0.apk",
+                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.31.0/hongguo-android-0.31.0.apk",
                 "size":  2092252,
-                "sha256":  "649404e96ba462f88dd5b06d0d71b9a9e681a38bff6876f99f5e25cc0300e172",
+                "sha256":  "0a52a43ab9ec0906fd60be4e76b621e27b4267dd6d2c9ee7fa569b0e0ebb827f",
                 "certificateSha256":  "d3bc2140857e9e7a3015ddf551596fee97bd06dc6f0dd6396e14546accbae76e"
             },
     "source":  {
-                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.30.0/hongguo-android-0.30.0-source.zip",
-                   "sha256":  "f531f01c619331869c175a817fc6b766a598423241c0f6c53b70cadc0116852e"
+                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.31.0/hongguo-android-0.31.0-source.zip",
+                   "sha256":  "e0643a090c929895903cdc45511dfab23b78d040dc82c501024cddf5dce056de"
                },
-    "notes":  "修复普通短剧播放接口空响应：增加请求签名并为每次取流使用独立匿名身份，修复连续切集和预加载失败。保留自动更新及可选代理、历史、画质和原有缓冲。"
+    "notes":  "修复搜索故障后持续复用失效匿名身份、更新页重建丢失安装流程状态两类问题，并清理无用代码。保留签名取流、历史缓存、画质、缓冲及更新代理。"
 }
