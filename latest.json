@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "applicationId":  "cn.local.hongguocar",
-    "versionName":  "0.29.0",
-    "versionCode":  29,
+    "versionName":  "0.30.0",
+    "versionCode":  30,
     "minSdk":  26,
-    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.29.0",
+    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.30.0",
     "apk":  {
-                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.29.0/hongguo-android-0.29.0.apk",
+                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.30.0/hongguo-android-0.30.0.apk",
                 "size":  2092252,
-                "sha256":  "4deffddafc46fcb796ac0cde196a36cc78de98c2a8838debd07b985bdbb8c087",
+                "sha256":  "649404e96ba462f88dd5b06d0d71b9a9e681a38bff6876f99f5e25cc0300e172",
                 "certificateSha256":  "d3bc2140857e9e7a3015ddf551596fee97bd06dc6f0dd6396e14546accbae76e"
             },
     "source":  {
-                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.29.0/hongguo-android-0.29.0-source.zip",
-                   "sha256":  "ab245640902f9a45dd5d0b274f325b8159a91476becd49b71154cbbdc409a1d8"
+                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.30.0/hongguo-android-0.30.0-source.zip",
+                   "sha256":  "f531f01c619331869c175a817fc6b766a598423241c0f6c53b70cadc0116852e"
                },
-    "notes":  "新增启动自动检查更新、可选更新代理、下载进度与系统确认安装。安装成功后的下次启动自动清理安装包，取消安装时保留供重试。"
+    "notes":  "修复普通短剧播放接口空响应：增加请求签名并为每次取流使用独立匿名身份，修复连续切集和预加载失败。保留自动更新及可选代理、历史、画质和原有缓冲。"
 }
