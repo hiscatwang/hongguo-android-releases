@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "applicationId":  "cn.local.hongguocar",
-    "versionName":  "0.31.0",
-    "versionCode":  31,
+    "versionName":  "0.32.0",
+    "versionCode":  32,
     "minSdk":  26,
-    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.31.0",
+    "releaseUrl":  "https://github.com/hiscatwang/hongguo-android-releases/releases/tag/v0.32.0",
     "apk":  {
-                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.31.0/hongguo-android-0.31.0.apk",
-                "size":  2092252,
-                "sha256":  "0a52a43ab9ec0906fd60be4e76b621e27b4267dd6d2c9ee7fa569b0e0ebb827f",
+                "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.32.0/hongguo-android-0.32.0.apk",
+                "size":  2096348,
+                "sha256":  "8fd7c0983fd2fb0679bcc7e982b2778a571fb95792bb7aa51da7c8f2fd43b75e",
                 "certificateSha256":  "d3bc2140857e9e7a3015ddf551596fee97bd06dc6f0dd6396e14546accbae76e"
             },
     "source":  {
-                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.31.0/hongguo-android-0.31.0-source.zip",
-                   "sha256":  "e0643a090c929895903cdc45511dfab23b78d040dc82c501024cddf5dce056de"
+                   "url":  "https://github.com/hiscatwang/hongguo-android-releases/releases/download/v0.32.0/hongguo-android-0.32.0-source.zip",
+                   "sha256":  "ce01f8de589ebc80ed48217cdb05997d2f570fa20d1f90a0f221489da4165df9"
                },
-    "notes":  "修复搜索故障后持续复用失效匿名身份、更新页重建丢失安装流程状态两类问题，并清理无用代码。保留签名取流、历史缓存、画质、缓冲及更新代理。"
+    "notes":  "新增左右滑动调进度、左半屏上下调亮度、右半屏上下调音量和锁屏防误触。支持解锁按钮、返回键及遥控器解锁，保留签名取流、历史缓存、缓冲及更新代理。"
 }
